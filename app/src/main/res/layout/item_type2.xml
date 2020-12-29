@@ -5,18 +5,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:cardCornerRadius="12dp"
-    tools:backgroundTint="#F26DADDF">
+    android:backgroundTint="#F6B6A2"
+    tools:backgroundTint="#CC6D4F"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/textViewType1"
+        android:id="@+id/textViewType2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:textAlignment="center"
-        android:textColor="#032743"
-        android:textSize="24dp"
+        android:textColor="#330E02"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:text="type text"/>
-
+        tools:text="type2 text"/>
 
 </com.google.android.material.card.MaterialCardView>
