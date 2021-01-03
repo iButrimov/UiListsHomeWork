@@ -11,6 +11,15 @@
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp">
 
+    <ImageView
+        android:id="@+id/close_image_type3"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginEnd="12dp"
+        app:srcCompat="@drawable/ic__26497"
+        tools:ignore="RtlHardcoded" />
+
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/textViewType3"
         android:layout_width="match_parent"
